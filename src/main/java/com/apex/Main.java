@@ -13,6 +13,7 @@ public class Main {
         productos.add(new Producto("Jabon", "Aseo personal", 2500));
         productos.add(new Producto("Cepillo", "Aseo personal", 4000));
         productos.add(new Producto("Pasta dental", "Aseo personal", 100000));
+        productos.add(new Producto("Varsol", "Aseo de casa" , 25000));
 
         List<Producto> productosPorCategoria = Producto.porCategoria(productos, "Aseo personal");
 

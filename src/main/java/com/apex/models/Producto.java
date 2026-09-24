@@ -33,6 +33,7 @@ public class Producto {
     public static void mostrarProductos(List<Producto> productos, String categoria) {
         System.out.println("\n--------------------------------------------------------------------");
         System.out.println("Productos ordenados descendentemente de la categoria " + categoria);
-        productos.forEach(producto -> System.out.println("Nombre: " + producto.nombre + " \n " + "Precio: " + producto.precio + " \n " + "Categoria: " + producto.categoria));
+        System.out.println("-----------------------------------------------------------------------");
+        productos.forEach(producto -> System.out.println("Nombre: " + producto.nombre + " \n " + "Precio: " + producto.precio + " \n " + "Categoria: " + producto.categoria + "\n"));
     }
 }
